@@ -42,6 +42,7 @@ export async function POST(req: NextRequest) {
           },
           unit_amount: cartItem.item.price * 100,
         },
+        
         quantity: cartItem.quantity,
       })),
       client_reference_id: customer.clerkId,
