@@ -18,7 +18,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
   const onUpload = (result: any) => {
     onChange(result.info.secure_url);
   };
-
+//comment
   return (
     <div>
       <div className="mb-4 flex flex-wrap items-center gap-4">
